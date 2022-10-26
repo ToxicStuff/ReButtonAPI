@@ -36,9 +36,6 @@ namespace ReButtonAPI.QuickMenu
             uiTooltip.field_Public_String_0 = tooltip;
             uiTooltip.field_Public_String_1 = tooltip;
 
-            if (RectTransform.Find("Icon").GetComponent<StyleElement>() != null)
-                Object.DestroyImmediate(RectTransform.Find("Icon").GetComponent<StyleElement>());
-
             var iconImage = RectTransform.Find("Icon").GetComponent<Image>();
             iconImage.sprite = sprite;
             iconImage.overrideSprite = sprite;
