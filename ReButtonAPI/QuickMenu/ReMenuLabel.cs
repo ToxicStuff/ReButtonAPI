@@ -18,7 +18,7 @@ namespace ReButtonAPI.QuickMenu
 			{
 				if (_buttonPrefab == null)
 				{
-					_buttonPrefab = QuickMenuEx.Instance.transform.Find("CanvasGroup/Container/Window/QMParent/Menu_Settings/Panel_QM_ScrollRect/Viewport/VerticalLayoutGroup/Buttons_Debug/Button_FPS").gameObject;
+					_buttonPrefab = QuickMenuEx.Instance.transform.Find("CanvasGroup/Container/Window/QMParent/Menu_Settings/Panel_QM_ScrollRect/Viewport/VerticalLayoutGroup/Buttons_Debug_Row_1/Button_FPS").gameObject;
 				}
 				return _buttonPrefab;
 			}
